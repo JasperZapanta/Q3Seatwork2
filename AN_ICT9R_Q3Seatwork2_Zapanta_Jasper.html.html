@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	<style type="text/css">
+		h1,h2,h3{
+			font-family: Oswald;
+		}
+		p,td{
+			font-family: Oswald;
+		}
+		img {
+			height: 200px;
+			width: 130px;
+		}
+		body {
+			background-color: #171f26	;
+			background-size: cover;
+		}
+	</style>
+	<title>Q3Seatwork2</title>
+
+
+</head>
+<body>
+<div class="container">
+	<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark text-light">
+		<a class="navbar-brand text-warning" style="font-family: Oswald;">JMoviesReviews</a>
+		<ul class="navbar-nav">
+			<li class="nav-item"><a href="#" class="nav-link">HORROR</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">SCI-FI</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">ADVENTURE</a></li>
+		</ul>
+		<form class="form-inline my-2 my-lg-0">
+			<input type="search" name="search" placeholder="Type keyword" class="form-control mr-sm-2">
+			<button class="btn btn-warning my-2 mr-sm-0">SEARCH</button>
+		</form>
+	</nav>
+	<br>
+	<br>
+	<br>
+	<table class="table thread-dark table-info table-dark" width="300">
+		<tr>
+			<th>Sci-Fi Movies</th>
+			<th>Movie Name</th>
+			<th>Details</th>
+			<th>Ratings</th>
+		</tr>
+		<tr>
+			<th><img src="https://cdnb.artstation.com/p/assets/images/images/046/231/993/4k/nima-neemz-nakhshab-dominion-final.jpg?1644599731" class="rounded" ></th>
+			<th>Jurassic World: Dominion</th>
+			<th>Four years after the destruction of Isla Nublar, dinosaurs now live and hunt alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history's most fearsome creatures.</th>
+			<th>⭐⭐⭐☆☆</th>
+		</tr>
+		<tr>
+			<th><img src="https://m.media-amazon.com/images/M/MV5BN2I2Yzc2OWMtMWQzYi00ZDcxLTgyOTMtNjBiNzA5Y2QxZDYxXkEyXkFqcGdeQXVyMTM0NTc2NDgw._V1_.jpg" class="rounded"></th>
+			<th>Venom: Let there be Carnage</th>
+			<th>Eddie Brock is still struggling to coexist with the shape-shifting extraterrestrial Venom. When deranged serial killer Cletus Kasady also becomes host to an alien symbiote, Brock and Venom must put aside their differences to stop his reign of terror.</th>
+			<th>⭐⭐⭐⭐☆</th>
+		</tr>
+		<tr>
+			<th><img src="https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg" class="rounded"></th>
+			<th>Black Adam</th>
+			<th>Eddie Brock is still struggling to coexist with the shape-shifting extraterrestrial Venom. When deranged serial killer Cletus Kasady also becomes host to an alien symbiote, Brock and Venom must put aside their differences to stop his reign of terror.</th>
+			<th>⭐⭐⭐☆☆</th>
+		</tr>
+	</table>
+<div class="container bg-dark text-light">
+	<form class="form group">
+		<h2 class="text-warning">Rate Movies</h2>
+		<form class="form group">
+		Enter Email: <input type="email" name="email" class="form-control">
+		Choose Sci-fi Movie:
+		<select class="form-control">
+			<option>Jurassic World: Dominion</option>
+			<option>Venom: Let there be carnage</option>
+			<option>Black Adam</option>
+		</select><br>
+		Ratings :
+		<div class="form-control">
+			<input type="checkbox" name="old">⭐
+			<input type="checkbox" name="new">⭐
+			<input type="checkbox" name="old">⭐
+			<input type="checkbox" name="new">⭐
+			<input type="checkbox" name="new">⭐
+		</div>
+		<br>
+		Review : 
+		<div class="form-control">
+			<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		</div>
+
+		<br>
+		<input type="submit" name="submit reviews" value="Submit Review" class="btn btn-success btn-block">
+		<input type="reset" name="CANCEL" value="reset reviews" class="btn btn-danger btn-block">
+		<br>
+
+	</form>
+	</div>
+</div>
+<footer>
+	<small style="color:white;">&copy; JZ|2023</small>
+</footer>
+</body>
+</html>
